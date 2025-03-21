@@ -1,1 +1,149 @@
 /* Your styles here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* -------- body */
+
+body {
+  font-family: "Arial", sans-serif;
+  width: 100%;
+}
+/* ---------header */
+header .logo {
+  width: 100%;
+  text-align: left;
+  background-color: #222f3f;
+  padding: 10px 15px;
+}
+header img {
+  width: 100px;
+}
+header .menuBar {
+  padding: 10px 15px;
+  background-color: #364759;
+}
+header .menuBar a {
+  margin: 0px 8px;
+  text-decoration: none;
+  color: white;
+}
+/* --------------main */
+main {
+  background-color: #e8eced;
+  padding: 0px 15px;
+}
+main .orange {
+  color: white;
+  margin-top: 30px;
+  padding: 8px 0px;
+  text-align: center;
+  background-color: #e05f00;
+}
+
+main .green {
+  margin-top: 30px;
+  color: white;
+
+  padding: 50px;
+  text-align: center;
+  background-image: url(../images/bg-image.png);
+}
+main .whiteSection {
+  margin: 30px 0px;
+  background-color: white;
+}
+main .white {
+  padding: 10px 10px;
+}
+
+main .white > div {
+  display: inline-block;
+}
+main .white > div > div {
+  height: 30px;
+  width: 50%;
+  display: inline-block;
+}
+
+main .gallery {
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.gallery > div > div {
+  height: 250px;
+  display: inline-block;
+  width: calc(90% / 4);
+  background-position: center;
+  background-size: cover;
+  margin: 0 10px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 9px 2px #8888886b;
+}
+
+main .pad {
+  background-image: url(../images/img_1.jpg);
+}
+main .notebook {
+  background-image: url(../images/img_2.jpg);
+}
+main .watch {
+  background-image: url(../images/img_3.jpg);
+}
+main .animals {
+  background-image: url(../images/img_4.jpg);
+}
+main .imgVR {
+  background-image: url(../images/img_9.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+.gaming > .play {
+  padding: 10px 0px;
+  width: 100%;
+  display: inline-block;
+}
+.play h2 {
+  text-align: right;
+}
+.gaming .play > div {
+  width: 49%;
+  display: inline-block;
+}
+
+main .marshall {
+  background-image: url(../images/img_10.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* -------------footer */
+footer {
+  text-align: center;
+}
+footer .backtop {
+  padding: 10px;
+  background-color: #364759;
+}
+footer .backtop a {
+  color: white;
+}
+footer .logofooter {
+  padding: 40px;
+  background-color: #222f3f;
+}
+footer .logofooter img {
+  width: 150px;
+}
