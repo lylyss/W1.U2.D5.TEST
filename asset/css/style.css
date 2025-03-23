@@ -5,60 +5,84 @@
   margin: 0;
 }
 
-/* -------- body */
+/* -------- BODY */
 
 body {
   font-family: "Arial", sans-serif;
   width: 100%;
 }
-/* ---------header */
+/* ---------HEADER */
 header .logo {
   width: 100%;
   text-align: left;
   background-color: #222f3f;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 header img {
   width: 100px;
 }
+/* MENU */
 header .menuBar {
-  padding: 10px 15px;
+  padding: 10px 20px;
   background-color: #364759;
 }
 header .menuBar a {
-  margin: 0px 8px;
+  margin: 0.5rem;
   text-decoration: none;
-  color: white;
+  color: #e8eced;
 }
-/* --------------main */
+/* ----------------------------MAIN*/
 main {
   background-color: #e8eced;
-  padding: 0px 15px;
+  padding: 0px 1.5rem;
+}
+/* ------ORANGE */
+.orange_green > div {
+  padding-top: 1.5rem;
 }
 main .orange {
-  color: white;
-  margin-top: 30px;
+  color: #e8eced;
   padding: 8px 0px;
   text-align: center;
-  background-color: #e05f00;
+  background-color: #f56600;
 }
+/* ------GREEN */
 
 main .green {
-  margin-top: 30px;
-  color: white;
-
-  padding: 50px;
+  margin-top: 1.5rem;
+  color: #e8eced;
+  padding: 3.3rem;
   text-align: center;
   background-image: url(../images/bg-image.png);
 }
+.green h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.green h2 {
+  margin-top: 25px;
+  font-weight: 600;
+}
+/* -------WHITE SECTION */
 main .whiteSection {
-  margin: 30px 0px;
+  margin: 1.5rem 0rem;
   background-color: white;
 }
 main .white {
-  padding: 10px 10px;
+  padding: 15px 20px;
+}
+main .white h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
+main .white h3 {
+  margin-left: 0.5rem;
+  font-size: large;
+  color: #16576b;
+  font-weight: 600;
+}
 main .white > div {
   display: inline-block;
 }
@@ -70,18 +94,18 @@ main .white > div > div {
 
 main .gallery {
   background-color: white;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .gallery > div > div {
-  height: 250px;
+  height: 25rem;
   display: inline-block;
-  width: calc(90% / 4);
+  width: calc(87% / 4);
   background-position: center;
   background-size: cover;
-  margin: 0 10px;
-  border-radius: 25px;
-  box-shadow: 5px 5px 9px 2px #8888886b;
+  margin: 0 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 9px 2px #88888836;
 }
 
 main .pad {
@@ -98,51 +122,88 @@ main .animals {
 }
 main .imgVR {
   background-image: url(../images/img_9.png);
-  height: 300px;
+  height: 25rem;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   max-width: 100%;
-  width: 100%;
 }
 
 .gaming > .play {
-  padding: 10px 0px;
+  padding: 5px 0px;
   width: 100%;
+  display: inline-block;
+}
+.gaming .play > div {
+  margin-left: -10px;
+  margin-right: -40px;
+  width: 53%;
   display: inline-block;
 }
 .play h2 {
   text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
-.gaming .play > div {
-  width: 49%;
-  display: inline-block;
+.play h3 {
+  margin-left: 4.5rem;
+  font-size: large;
+  color: #16576b;
+  font-weight: 600;
 }
-
+/* -------------------------AUDIO MARSHALL */
+main .accessories {
+  margin-top: 1.5rem;
+}
 main .marshall {
+  border-top: 1px solid black;
   background-image: url(../images/img_10.png);
-  height: 300px;
+  height: 25rem;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   max-width: 100%;
   width: 100%;
 }
+.audio {
+  padding-top: 10px;
+  padding-bottom: 1.5rem;
+  width: 100%;
+  display: inline-block;
+}
+.audio > div {
+  width: 49%;
+  display: inline-block;
+}
+.audio h2 {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.audio h3 {
+  margin-left: 1.5rem;
+  font-size: large;
+  color: #16576b;
+  font-weight: 600;
+}
 
 /* -------------footer */
 footer {
+  width: 100%;
   text-align: center;
 }
 footer .backtop {
-  padding: 10px;
+  padding: 15px;
   background-color: #364759;
 }
 footer .backtop a {
   color: white;
 }
 footer .logofooter {
-  padding: 40px;
-  background-color: #222f3f;
+  height: 10rem;
+  width: 100%;
+  padding: 50px;
+  background-color: #222f3e;
 }
 footer .logofooter img {
   width: 150px;
