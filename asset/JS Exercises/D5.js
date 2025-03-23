@@ -121,14 +121,13 @@ for (let i = 0; i < cars.length; i++) {
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
 let contatore = 0;
-
-/* while (contatore < numericArray.length) {
+while (contatore < numericArray.length) {
+  console.log(numericArray[contatore]);
   if (numericArray[contatore] === 32) {
     break;
-  } else {
-    console.log(numericArray[contatore]);
   }
-} */
+  contatore++;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -136,3 +135,96 @@ let contatore = 0;
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const posizioneArray = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  let letera = charactersArray[i];
+  let posizione;
+  switch (letera) {
+    case "a":
+      posizione = 1;
+      break;
+    case "b":
+      posizione = 2;
+      break;
+    case "c":
+      posizione = 3;
+      break;
+    case "d":
+      posizione = 4;
+      break;
+    case "e":
+      posizione = 5;
+      break;
+    case "f":
+      posizione = 6;
+      break;
+    case "g":
+      posizione = 7;
+      break;
+    case "h":
+      posizione = 8;
+      break;
+    case "i":
+      posizione = 9;
+      break;
+    case "j":
+      posizione = 10;
+      break;
+    case "k":
+      posizione = 11;
+      break;
+    case "l":
+      posizione = 12;
+      break;
+    case "m":
+      posizione = 13;
+      break;
+    case "n":
+      posizione = 14;
+      break;
+    case "o":
+      posizione = 15;
+      break;
+    case "p":
+      posizione = 16;
+      break;
+    case "q":
+      posizione = 17;
+      break;
+    case "r":
+      posizione = 18;
+      break;
+    case "s":
+      posizione = 19;
+      break;
+    case "t":
+      posizione = 20;
+      break;
+    case "u":
+      posizione = 21;
+      break;
+    case "v":
+      posizione = 22;
+      break;
+    case "w":
+      posizione = 23;
+      break;
+    case "x":
+      posizione = 24;
+      break;
+    case "y":
+      posizione = 25;
+      break;
+    case "z":
+      posizione = 26;
+      break;
+    default:
+      posizione = null;
+  }
+
+  posizioneArray.push(posizione);
+}
+
+console.log(posizioneArray);
