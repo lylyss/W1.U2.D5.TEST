@@ -29,11 +29,11 @@ header .menuBar {
 header .menuBar a {
   margin: 0.5rem;
   text-decoration: none;
-  color: #e8eced;
+  color: #e9edee;
 }
 /* ----------------------------MAIN*/
 main {
-  background-color: #e8eced;
+  background-color: #e9edee;
   padding: 0px 1.5rem;
 }
 /* ------ORANGE */
@@ -41,7 +41,7 @@ main {
   padding-top: 1.5rem;
 }
 main .orange {
-  color: #e8eced;
+  color: #e9edee;
   padding: 8px 0px;
   text-align: center;
   background-color: #f56600;
@@ -50,7 +50,7 @@ main .orange {
 
 main .green {
   margin-top: 1.5rem;
-  color: #e8eced;
+  color: #e9edee;
   padding: 3.3rem;
   text-align: center;
   background-image: url(../images/bg-image.png);
@@ -70,7 +70,7 @@ main .whiteSection {
   background-color: white;
 }
 main .white {
-  padding: 15px 20px;
+  padding: 15px 30px;
 }
 main .white h2 {
   font-size: 1.4rem;
@@ -93,6 +93,7 @@ main .white > div > div {
 }
 
 main .gallery {
+  text-align: center;
   background-color: white;
   padding-bottom: 15px;
 }
@@ -128,6 +129,9 @@ main .imgVR {
   background-position: center;
   max-width: 100%;
 }
+.gaming {
+  margin-top: 2rem;
+}
 
 .gaming > .play {
   padding: 5px 0px;
@@ -135,7 +139,7 @@ main .imgVR {
   display: inline-block;
 }
 .gaming .play > div {
-  margin-left: -10px;
+  margin-left: -15px;
   margin-right: -40px;
   width: 53%;
   display: inline-block;
